@@ -1,0 +1,2 @@
+#!/bin/bash
+python detect.py --weights runs/acres22young/train/corn-n-soy-v1/exp/weights/best.pt --source 'split/corn/day5/*' --save-txt --project /home/varun/work/yolov5/runs/acres22young/detect/ --name corn-n-soy-v1-exp-corn-day5 --conf-thres 0.25 --iou-thres 0.45

@@ -1,0 +1,2 @@
+#!/bin/bash
+python detect.py --weights runs/acres22young/train/onlySoy-v1/exp/weights/best.pt --source 'split/corn/day0/*' --save-txt --project /home/varun/work/yolov5/runs/acres22young/detect/ --name onlySoy-v1-exp-corn-day0 --conf-thres 0.25 --iou-thres 0.45
