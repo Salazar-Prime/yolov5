@@ -1,0 +1,8 @@
+# YAML file for Project: corn-n-soy-v1
+# Training Command:
+# python train.py --img 640 --batch 32 --epochs 300 --data /home/varun/work/yolov5/data/labData/corn-n-soy.yaml --weights /home/varun/work/yolov5/yolov5s.pt --device 0 --optimizer Adam --workers 16 --project /home/varun/work/yolov5/runs/train/corn-n-soy-v1 --save-period 10 --cache ram
+train: /home/varun/work/yolov5/data/labData/corn-n-soy/images
+val: /home/varun/work/yolov5/data/labData/corn-n-soy/images
+nc: 1
+names:
+  0: weed

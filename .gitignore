@@ -1,3 +1,6 @@
+# User deinfed
+split
+
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 *.jpg
 *.jpeg
@@ -27,7 +30,12 @@ storage.googleapis.com
 runs/*
 data/*
 data/images/*
+data/labData/corn
+data/labData/soy
+data/labData/corn-n-soy
 !data/*.yaml
+!data/labData/
+!data/labData/*.yaml
 !data/hyps
 !data/scripts
 !data/images
