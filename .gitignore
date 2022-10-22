@@ -28,6 +28,15 @@ split
 
 storage.googleapis.com
 runs/*
+runs/acres22young/*
+runs/acres22young/detect
+runs/acres22young/train
+!runs/acres22young/
+!runs/acres22young/reports/
+!runs/acres22young/reports/*
+!runs/acres22young/reports/Graph*/*
+!runs/acres22young/dataSideProject/
+!runs/acres22young/dataSideProject/*
 data/*
 data/images/*
 data/labData/corn
