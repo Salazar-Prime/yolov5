@@ -1,0 +1,2 @@
+#!/bin/bash
+python train.py --img 640 --batch 32 --epochs 300 --data /home/varun/work/yolov5/data/labData/onlySoy-v2.yaml --weights /home/varun/work/yolov5/yolov5s.pt --device 0 --optimizer Adam --workers 16 --project /home/varun/work/yolov5/runs/acres22young/train/corn-n-soy-v2 --save-period 10 --cache ram
